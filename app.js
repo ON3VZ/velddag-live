@@ -336,6 +336,8 @@ function render() {
     fmtUtc(snap.field_day.start_utc) + " → " + fmtUtc(snap.field_day.end_utc) + " UTC";
 
   renderLivebar();
+  const manageBtn = $("manage-open");
+  if (manageBtn) manageBtn.style.display = snap.readonly ? "none" : "";
   ensureAddButton();
   renderClosedBadge();
   renderFilterOptions();
