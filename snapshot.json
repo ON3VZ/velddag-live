@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-07-22T20:58:28Z",
+ "generated_at_utc": "2026-07-22T20:58:32Z",
  "readonly": true,
  "field_day": {
   "name": "Field Day 2026-07-22",
@@ -11,10 +11,9 @@
   "end_utc": "2026-07-24T08:10:00Z",
   "display_timezone": "Europe/Brussels",
   "bands": [
-   "160m",
-   "80m",
    "40m",
-   "20m"
+   "80m",
+   "160m"
   ],
   "closed": false
  },
@@ -26,7 +25,7 @@
    "category": "Open All Band Low Power",
    "section": "RST",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
@@ -37,10 +36,7 @@
      "source": "TEST-PC1",
      "qso_count": 1
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -60,13 +56,6 @@
    "category": "Restricted 12h",
    "section": "CDZ",
    "cells": {
-    "160m": {
-     "status": "not_worked"
-    },
-    "80m": {
-     "status": "manual_not_worked",
-     "manual": true
-    },
     "40m": {
      "status": "worked_by_n1mm",
      "at_utc": "2026-07-22T08:17:03Z",
@@ -75,7 +64,11 @@
      "source": "TEST-PC1",
      "qso_count": 2
     },
-    "20m": {
+    "80m": {
+     "status": "manual_not_worked",
+     "manual": true
+    },
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -102,17 +95,14 @@
    "category": "Restricted 24h",
    "section": "RAF",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "manual_not_worked",
      "manual": true
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -124,12 +114,6 @@
    "category": "Open All Band Low Power",
    "section": "KSD",
    "cells": {
-    "160m": {
-     "status": "not_worked"
-    },
-    "80m": {
-     "status": "not_worked"
-    },
     "40m": {
      "status": "worked_by_n1mm",
      "at_utc": "2026-07-22T08:21:13Z",
@@ -138,7 +122,10 @@
      "source": "TEST-PC1",
      "qso_count": 1
     },
-    "20m": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -158,16 +145,13 @@
    "category": "Open All Band Low Power",
    "section": "MCL",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -179,7 +163,7 @@
    "category": "QRP 24h",
    "section": "MLB",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
@@ -190,10 +174,7 @@
      "source": "5CG3282TZ6",
      "qso_count": 1
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -213,7 +194,7 @@
    "category": "Open All Band Low Power",
    "section": "MNS",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
@@ -224,10 +205,7 @@
      "source": "5CG3282TZ6",
      "qso_count": 1
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -247,16 +225,13 @@
    "category": "Open All Band Low Power",
    "section": "OSA",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -268,16 +243,13 @@
    "category": "Restricted 24h",
    "section": "PHI",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -289,6 +261,12 @@
    "category": "Restricted 12h",
    "section": "RAC",
    "cells": {
+    "40m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
     "160m": {
      "status": "worked_by_n1mm",
      "at_utc": "2026-07-22T08:42:56Z",
@@ -296,15 +274,6 @@
      "freq_khz": 1840.0,
      "source": "5CG3282TZ6",
      "qso_count": 1
-    },
-    "80m": {
-     "status": "not_worked"
-    },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
-     "status": "not_worked"
     }
    },
    "qsos": [
@@ -323,16 +292,13 @@
    "category": "Open All Band Low Power",
    "section": "RAT",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -344,7 +310,7 @@
    "category": "Restricted 12h",
    "section": "RCA",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
@@ -355,10 +321,7 @@
      "source": "5CG3282TZ6",
      "qso_count": 1
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -378,16 +341,13 @@
    "category": "Restricted 12h",
    "section": "SNW",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -399,16 +359,13 @@
    "category": "Open All Band Low Power",
    "section": "TOR",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -420,16 +377,13 @@
    "category": "Restricted 24h",
    "section": "LVN",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -441,16 +395,13 @@
    "category": "Restricted 12h",
    "section": "CLR",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -462,16 +413,13 @@
    "category": "Open All Band Low Power",
    "section": "NOL",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -483,16 +431,13 @@
    "category": "Restricted 24h",
    "section": "BXE",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -504,16 +449,13 @@
    "category": "Restricted 24h",
    "section": "GNT",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -525,16 +467,13 @@
    "category": "Restricted 12h",
    "section": "LGE",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -546,16 +485,13 @@
    "category": "Open All Band Low Power",
    "section": "NBT",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -567,16 +503,13 @@
    "category": "Open All Band Low Power",
    "section": "OBR",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -588,16 +521,13 @@
    "category": "Open All Band Low Power",
    "section": "NMR",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -609,16 +539,13 @@
    "category": "Restricted 24h",
    "section": "NNV",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -630,16 +557,13 @@
    "category": "Restricted 24h",
    "section": "MWV",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -651,16 +575,13 @@
    "category": "Restricted 24h",
    "section": "WLD",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -672,16 +593,13 @@
    "category": "Open All Band Low Power",
    "section": "ZTM",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -693,16 +611,13 @@
    "category": "Restricted 12h",
    "section": "CLR",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -714,16 +629,13 @@
    "category": "Open All Band Low Power",
    "section": "ERA",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -735,16 +647,13 @@
    "category": "Restricted 24h",
    "section": "ARA",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -756,16 +665,13 @@
    "category": "Restricted 24h",
    "section": "GBN",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -777,16 +683,13 @@
    "category": "Open All Band High Power",
    "section": "DST",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -798,16 +701,13 @@
    "category": "Open All Band Low Power",
    "section": "NOK",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -819,16 +719,13 @@
    "category": "Restricted 24h",
    "section": "ORA",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -840,16 +737,13 @@
    "category": "Restricted 24h",
    "section": "LUS",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -861,16 +755,13 @@
    "category": "Restricted 12h",
    "section": "ZTM",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -882,16 +773,13 @@
    "category": "QRP 12h",
    "section": "PHI",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -903,16 +791,13 @@
    "category": "Restricted 24h",
    "section": "CRD",
    "cells": {
-    "160m": {
+    "40m": {
      "status": "not_worked"
     },
     "80m": {
      "status": "not_worked"
     },
-    "40m": {
-     "status": "not_worked"
-    },
-    "20m": {
+    "160m": {
      "status": "not_worked"
     }
    },
@@ -921,20 +806,20 @@
  ],
  "stats": {
   "stations_total": 38,
-  "bands_total": 4,
-  "cells_total": 152,
+  "bands_total": 3,
+  "cells_total": 114,
   "cells_worked": 7,
-  "cells_open": 145,
+  "cells_open": 107,
   "manual_overrides": 2,
   "cells_excluded": 0,
   "stations_complete": 0,
   "stations_partial": 7,
   "stations_untouched": 31,
   "per_band": {
-   "160m": {
+   "40m": {
     "total": 38,
-    "worked": 1,
-    "open": 37,
+    "worked": 2,
+    "open": 36,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -945,17 +830,10 @@
     "manual_overrides": 2,
     "excluded": 0
    },
-   "40m": {
+   "160m": {
     "total": 38,
-    "worked": 2,
-    "open": 36,
-    "manual_overrides": 0,
-    "excluded": 0
-   },
-   "20m": {
-    "total": 38,
-    "worked": 0,
-    "open": 38,
+    "worked": 1,
+    "open": 37,
     "manual_overrides": 0,
     "excluded": 0
    }
@@ -963,49 +841,49 @@
   "per_category": {
    "Open All Band Low Power": {
     "stations": 14,
-    "total": 56,
+    "total": 42,
     "worked": 3,
-    "open": 53,
+    "open": 39,
     "manual_overrides": 0,
     "excluded": 0
    },
    "Restricted 12h": {
     "stations": 8,
-    "total": 32,
+    "total": 24,
     "worked": 3,
-    "open": 29,
+    "open": 21,
     "manual_overrides": 1,
     "excluded": 0
    },
    "Restricted 24h": {
     "stations": 13,
-    "total": 52,
+    "total": 39,
     "worked": 0,
-    "open": 52,
+    "open": 39,
     "manual_overrides": 1,
     "excluded": 0
    },
    "QRP 24h": {
     "stations": 1,
-    "total": 4,
+    "total": 3,
     "worked": 1,
-    "open": 3,
+    "open": 2,
     "manual_overrides": 0,
     "excluded": 0
    },
    "Open All Band High Power": {
     "stations": 1,
-    "total": 4,
+    "total": 3,
     "worked": 0,
-    "open": 4,
+    "open": 3,
     "manual_overrides": 0,
     "excluded": 0
    },
    "QRP 12h": {
     "stations": 1,
-    "total": 4,
+    "total": 3,
     "worked": 0,
-    "open": 4,
+    "open": 3,
     "manual_overrides": 0,
     "excluded": 0
    }
@@ -1035,14 +913,10 @@
   "excluded": "Excluded"
  },
  "colors": {
-  "not_worked": "#FFFFFF",
-  "worked_by_n1mm": "#4CAF50",
-  "manual_worked": "#1B5E20",
-  "manual_not_worked": "#FFB300",
-  "excluded": "#9E9E9E"
- },
- "publication": {
-  "state": "live",
-  "end_utc": "2026-07-24T08:10:00Z"
+  "not_worked": "#ffffff",
+  "worked_by_n1mm": "#4caf50",
+  "manual_worked": "#1b5e20",
+  "manual_not_worked": "#ffb300",
+  "excluded": "#9e9e9e"
  }
 }
