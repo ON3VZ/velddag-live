@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-07-22T10:34:15Z",
+ "generated_at_utc": "2026-07-22T10:36:17Z",
  "readonly": true,
  "field_day": {
   "name": "Field Day 2026-07-22",
@@ -18,15 +18,7 @@
   ],
   "closed": false
  },
- "sources": [
-  {
-   "name": "5CG3282TZ6",
-   "last_seen_utc": "2026-07-22T09:56:59Z",
-   "packet_count": 1,
-   "last_address": "127.0.0.1",
-   "fresh": false
-  }
- ],
+ "sources": [],
  "stations": [
   {
    "callsign": "ON4BAF/P",
