@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-07-22T20:40:10Z",
+ "generated_at_utc": "2026-07-22T20:42:09Z",
  "readonly": true,
  "field_day": {
   "name": "Field Day 2026-07-22",
@@ -1040,5 +1040,9 @@
   "manual_worked": "#1B5E20",
   "manual_not_worked": "#FFB300",
   "excluded": "#9E9E9E"
+ },
+ "publication": {
+  "state": "live",
+  "end_utc": "2026-07-24T08:10:00Z"
  }
 }
