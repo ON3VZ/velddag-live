@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-07-22T21:02:37Z",
+ "generated_at_utc": "2026-07-22T21:03:53Z",
  "readonly": true,
  "field_day": {
   "name": "Field Day 2026-07-22",
@@ -802,56 +802,38 @@
     }
    },
    "qsos": []
-  },
-  {
-   "callsign": "ON3VZ",
-   "normalized": "ON3VZ",
-   "category": "test",
-   "section": "WLD",
-   "cells": {
-    "40m": {
-     "status": "not_worked"
-    },
-    "80m": {
-     "status": "not_worked"
-    },
-    "160m": {
-     "status": "not_worked"
-    }
-   },
-   "qsos": []
   }
  ],
  "stats": {
-  "stations_total": 39,
+  "stations_total": 38,
   "bands_total": 3,
-  "cells_total": 117,
+  "cells_total": 114,
   "cells_worked": 7,
-  "cells_open": 110,
+  "cells_open": 107,
   "manual_overrides": 2,
   "cells_excluded": 0,
   "stations_complete": 0,
   "stations_partial": 7,
-  "stations_untouched": 32,
+  "stations_untouched": 31,
   "per_band": {
    "40m": {
-    "total": 39,
+    "total": 38,
     "worked": 2,
-    "open": 37,
+    "open": 36,
     "manual_overrides": 0,
     "excluded": 0
    },
    "80m": {
-    "total": 39,
+    "total": 38,
     "worked": 4,
-    "open": 35,
+    "open": 34,
     "manual_overrides": 2,
     "excluded": 0
    },
    "160m": {
-    "total": 39,
+    "total": 38,
     "worked": 1,
-    "open": 38,
+    "open": 37,
     "manual_overrides": 0,
     "excluded": 0
    }
@@ -904,14 +886,6 @@
     "open": 3,
     "manual_overrides": 0,
     "excluded": 0
-   },
-   "test": {
-    "stations": 1,
-    "total": 3,
-    "worked": 0,
-    "open": 3,
-    "manual_overrides": 0,
-    "excluded": 0
    }
   }
  },
@@ -944,5 +918,9 @@
   "manual_worked": "#1b5e20",
   "manual_not_worked": "#ffb300",
   "excluded": "#9e9e9e"
+ },
+ "publication": {
+  "state": "live",
+  "end_utc": "2026-07-24T08:10:00Z"
  }
 }
